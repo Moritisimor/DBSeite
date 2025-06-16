@@ -1,0 +1,34 @@
+body {
+    background: #260122;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;;
+    margin: 20px;
+    list-style-position: inside;
+}
+
+.RelAlgHead {
+    margin-left: 150px;
+    margin-right: 150px;
+    color: aliceblue;
+    text-align: center;
+}
+.RelAlgBody {
+    margin-right: 150px;
+    margin-left: 150px;
+    padding: 15px;
+    border: 5px dashed rgba(115, 0, 255, 0.745);
+    color: aliceblue;
+}
+
+.JOINsHead {
+    margin-left: 150px;
+    margin-right: 150px;
+    color: aliceblue;
+    text-align: center;
+}
+.JOINsBody {
+    margin-right: 150px;
+    margin-left: 150px;
+    padding: 15px;
+    border: 5px dashed rgba(168, 11, 19, 0.745);
+    color: aliceblue;
+}
