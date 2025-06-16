@@ -1,5 +1,5 @@
 body {
-    background: #260122;
+    background: #2b2a2c;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin: 20px;
     list-style-position: inside;
@@ -12,10 +12,10 @@ body {
     text-align: center;
 }
 .RelAlgBody {
-    margin-right: 150px;
-    margin-left: 150px;
+    margin-right: 250px;
+    margin-left: 250px;
     padding: 15px;
-    border: 5px dashed rgba(115, 0, 255, 0.745);
+    border: 5px dashed rgba(30, 0, 255, 0.745);
     color: aliceblue;
     margin-bottom: 80px;
 }
@@ -27,8 +27,8 @@ body {
     text-align: center;
 }
 .JOINsBody {
-    margin-right: 150px;
-    margin-left: 150px;
+    margin-right: 250px;
+    margin-left: 250px;
     padding: 15px;
     border: 5px dashed rgba(168, 11, 19, 0.745);
     color: aliceblue;
