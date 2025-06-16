@@ -14,16 +14,20 @@
     </div>
     <div class="RelAlgBody">
         <p>Die Hauptfunktion relationaler Algebra ist das Speichern von Daten in Tabellen, sogenannte Relationen, die mit Abfragesprachen, wie SQL, abgefragt werden können. Dadurch lassen sich z. B Eingaberelationen einfach 
-        zu Ausgaberelationen umwandeln lassen. Man kann somit also mit der Selektion Zeilen einer Tabelle filtern nach bestimmten Kriterien, z. B „Zeig alle Mitarbeiter mit einem Gehalt von über 3000€ an“, die Projektion,
+        zu Ausgaberelationen umwandeln lassen. Man kann somit also mit der Selektion Zeilen einer Tabelle filtern nach bestimmten Kriterien, z. B „Zeig alle Mitarbeiter mit einem Gehalt von über 3000€ an“. Die Projektion,
         womit man z. B ausdrücken kann: „Zeige mir nur die Namen dieser Mitarbeiter mit über 3000€ Gehalt an.“ oder die Vereinigungen, Differenzen und Durschnitte, womit man mit Zellen arithmetische Operationen durchführen
-        kann.</p>
+        kann. Wichtig ist auch noch das kartesische Produkt: man kombiniert jede Zelle mit der anderen. Dieses Konzept ist für JOINs wichtig!</p>
     </div>
     <div class="JOINsHead">
         <h1>JOINs:</h1>
         <h2>JOINs sind für relationale Datenbanken absolute Must-Haves und heutzutage nicht mehr wegzudenken. Gebraucht werden Sie immer dann, wenn man mehrere Tabellen vereinen will, daher auch der Begriff JOIN.</h2>
     </div>
     <div class="JOINsBody">
-        <p></p>
+        <p>JOINs lassen sich grundlegend so ausdrücken: Die Kombination aus Produkt und Selektion. Das Produkt stellt hierbei eine Form des Kartesischen Produkts dar, inwiefern kommt auf die Art des JOINs selbst an.
+        An sich wäre das vollständige kartesische Produkt aller Relationen bei einem JOIN zu verwenden zwar korrekt, aber auch äußerst ineffizient! Deswegen hat man spezielle JOINs, wie z. B der Theta JOIN. Mit dem
+        Theta JOIN verknüpft man zwei Tabellen auf Basis einer Bedingung. Z. B kann man so nur Felder verknüpfen, wo der Wert eines Feldes größer sein muss als das andere, und wenn dies nicht so ist, wird das Feld
+        vom Join ausgeschlossen. Der Theta JOIN könnte doppelte Datensätze erzeugen. Will man doppelte Daten vermeiden nutzt man einen natürlichen JOIN, hier werden Tabellen basierend auf gemeinsamen Daten
+        zusammengeführt.</p>
     </div>
 </body>
 </html>
