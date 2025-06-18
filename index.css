@@ -6,52 +6,52 @@ body {
 }
 
 .RelAlgHead {
-    margin-top: 50px;
-    margin-left: 150px;
-    margin-right: 150px;
+    margin-top: 3%;
+    margin-left: 10%;
+    margin-right: 10%;
     color: aliceblue;
     text-align: center;
 }
 .RelAlgBody {
-    margin-right: 250px;
-    margin-left: 250px;
+    margin-right: 15%;
+    margin-left: 15%;
     padding: 15px;
     border-radius: 65px;
     border: 5px solid rgb(255, 255, 255);
     color: aliceblue;
-    margin-bottom: 40px;
+    margin-bottom: 2%;
 }
 .RelAlgMisc {
-    margin-right: 250px;
-    margin-left: 250px;
+    margin-right: 15%;
+    margin-left: 15%;
     padding: 15px;
     border-radius: 65px;
     border: 3px dotted rgba(255, 255, 255, 0.745);
     color: aliceblue;
-    margin-bottom: 80px;
+    margin-bottom: 4%;
 }
 
 .JOINsHead {
-    margin-left: 150px;
-    margin-right: 150px;
+    margin-left: 10%;
+    margin-right: 10%;
     color: aliceblue;
     text-align: center;
 }
 .JOINsBody {
-    margin-right: 250px;
-    margin-left: 250px;
+    margin-right: 15%;
+    margin-left: 15%;
     padding: 15px;
     border-radius: 65px;
     border: 5px solid rgba(255, 255, 255, 0.745);
     color: aliceblue;
-    margin-bottom: 40px;
+    margin-bottom: 2%;
 }
 .JOINsMisc {
-    margin-right: 250px;
-    margin-left: 250px;
+    margin-right: 15%;
+    margin-left: 15%;
     padding: 15px;
     border-radius: 65px;
     border: 3px dotted rgba(255, 255, 255, 0.745);
     color: aliceblue;
-    margin-bottom: 80px;
+    margin-bottom: 2%;
 }
