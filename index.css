@@ -3,55 +3,49 @@ body {
     background: linear-gradient(90deg,rgba(117, 42, 155, 1) 0%, rgba(156, 62, 62, 1) 50%, rgba(49, 86, 196, 1) 100%);
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin: 20px;
+    text-align: center;
+    color: aliceblue;
 }
 
 .RelAlgHead {
     margin-top: 3%;
-    margin-left: 10%;
-    margin-right: 10%;
-    color: aliceblue;
-    text-align: center;
+    margin-left: 5%;
+    margin-right: 5%;
 }
 .RelAlgBody {
-    margin-right: 15%;
-    margin-left: 15%;
+    margin-right: 10%;
+    margin-left: 10%;
     padding: 15px;
     border-radius: 65px;
     border: 5px solid rgb(255, 255, 255);
-    color: aliceblue;
     margin-bottom: 2%;
 }
 .RelAlgMisc {
-    margin-right: 15%;
-    margin-left: 15%;
+    margin-right: 10%;
+    margin-left: 10%;
     padding: 15px;
     border-radius: 65px;
     border: 3px dotted rgba(255, 255, 255, 0.745);
-    color: aliceblue;
     margin-bottom: 4%;
 }
 
 .JOINsHead {
-    margin-left: 10%;
-    margin-right: 10%;
-    color: aliceblue;
-    text-align: center;
+    margin-left: 5%;
+    margin-right: 5%;
 }
 .JOINsBody {
-    margin-right: 15%;
-    margin-left: 15%;
+    margin-right: 10%;
+    margin-left: 10%;
     padding: 15px;
     border-radius: 65px;
     border: 5px solid rgba(255, 255, 255, 0.745);
-    color: aliceblue;
     margin-bottom: 2%;
 }
 .JOINsMisc {
-    margin-right: 15%;
-    margin-left: 15%;
+    margin-right: 10%;
+    margin-left: 10%;
     padding: 15px;
     border-radius: 65px;
     border: 3px dotted rgba(255, 255, 255, 0.745);
-    color: aliceblue;
     margin-bottom: 2%;
 }
