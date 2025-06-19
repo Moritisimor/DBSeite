@@ -8,7 +8,7 @@ body {
 }
 
 .RelAlgHead {
-    margin-top: 3%;
+    margin-top: 2%;
     margin-left: 5%;
     margin-right: 5%;
 }
@@ -18,15 +18,15 @@ body {
     padding: 15px;
     border-radius: 65px;
     border: 5px solid rgb(255, 255, 255);
-    margin-bottom: 2%;
+    margin-bottom: 1%;
 }
 .RelAlgMisc {
     margin-right: 10%;
     margin-left: 10%;
     padding: 15px;
     border-radius: 65px;
-    border: 3px dotted rgba(255, 255, 255, 0.745);
-    margin-bottom: 4%;
+    border: 4px dotted rgba(255, 255, 255, 0.745);
+    margin-bottom: 2%;
 }
 
 .JOINsHead {
@@ -39,13 +39,12 @@ body {
     padding: 15px;
     border-radius: 65px;
     border: 5px solid rgba(255, 255, 255, 0.745);
-    margin-bottom: 2%;
+    margin-bottom: 1%;
 }
 .JOINsMisc {
     margin-right: 10%;
     margin-left: 10%;
     padding: 15px;
     border-radius: 65px;
-    border: 3px dotted rgba(255, 255, 255, 0.745);
-    margin-bottom: 2%;
+    border: 4px dotted rgba(255, 255, 255, 0.745);
 }
